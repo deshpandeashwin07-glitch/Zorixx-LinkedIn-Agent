@@ -165,6 +165,8 @@ skills/li-human/humanize.py      the three cleaning passes
 skills/li-human/detect.py        the five-check panel
 skills/li-profile/rubric.json    the 100-point profile score
 templates/voice.md               your voice profile. Fill this in first.
+skills/li-profile/company-rubric.json  the 100-point score for company pages
+profiles/zorixx/                 Zorixx Consultech: company page copy, voice.md, cover banner
 ```
 
 ## Credit

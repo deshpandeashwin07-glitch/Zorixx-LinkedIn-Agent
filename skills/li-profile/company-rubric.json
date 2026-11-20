@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "total": 100,
+  "note": "Company (organisation) page rubric. Use instead of rubric.json when the profile is a LinkedIn company page, not a person. Score honestly.",
+  "items": [
+    {"id": "tagline", "points": 12, "full_marks": "Names the buyer and what changes for them, carries one piece of proof, uses most of the 120 characters. Not a slogan on its own."},
+    {"id": "overview_open", "points": 10, "full_marks": "The first two lines (before 'see more') name the reader and their problem. Does not open with the company name or 'founded in'."},
+    {"id": "overview_body", "points": 12, "full_marks": "Services as outcomes, how the firm works, one or more verifiable proof points, and a clear next step with a contact. Under 2,000 characters."},
+    {"id": "cover", "points": 8, "full_marks": "Branded cover with one line of positioning; nothing important under the logo overlap on the left. Not a stock image or default."},
+    {"id": "logo", "points": 6, "full_marks": "Square mark that reads at 60 px, on a background that matches the brand."},
+    {"id": "details", "points": 8, "full_marks": "Industry, size, type, primary location, one website consistent with all other materials, and a custom button set."},
+    {"id": "specialties", "points": 6, "full_marks": "Up to 20 specialties using the terms buyers actually search for."},
+    {"id": "pinned", "points": 8, "full_marks": "A pinned post that is current (under 60 days) and is the best proof or lead asset."},
+    {"id": "newsletter", "points": 6, "full_marks": "Recurring long-form content (LinkedIn newsletter or articles) published from the page."},
+    {"id": "people", "points": 10, "full_marks": "Leaders and employees list the page as current employer and have headlines that name the buyer."},
+    {"id": "activity", "points": 14, "full_marks": "At least two posts a week for the last month, and comments on page posts answered within a day."}
+  ]
+}
