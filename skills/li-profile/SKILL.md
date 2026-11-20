@@ -21,6 +21,17 @@ experience entries, plus whether they have a banner and featured section. A
 screenshot of the top card is enough for the first pass. Do not log into
 LinkedIn on their behalf.
 
+## Person or company page?
+
+If the profile is a LinkedIn **company page** (an organisation, not a person),
+score it with `company-rubric.json` instead of `rubric.json`, and rewrite in
+this order: tagline (120 characters), overview first two lines, overview body
+(2,000 characters), cover image, page details and custom button, specialties,
+pinned post, newsletter, then the team's own headlines, since a company page
+mostly grows through the people who list it as their employer.
+
+A worked example lives in `profiles/zorixx/company-page.md`.
+
 ## Score it
 
 Read `rubric.json` in this folder. Twelve items, 100 points, each with what
