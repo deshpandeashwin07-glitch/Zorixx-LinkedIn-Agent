@@ -36,6 +36,7 @@ What we do
 • Governance, risk and internal audit: technology risk assessments, control reviews, remediation tracking
 • AI governance and assurance: AI risk assessment and responsible AI controls
 • ERP and technology controls: access management, segregation of duties, enterprise system reviews
+• Certification readiness: SOC 2 and ISO 27001
 
 How we work
 Understand, assess, prioritise, strengthen, assure, sustain. Every finding is scored on likelihood and impact, so remediation starts where your risk is highest.
@@ -52,9 +53,10 @@ info@zorixx.ai | +91 70288 61588 | www.zorixx.ai
 ```
 
 **CONFIRM:**
-- **Website and email.** The DPDP brochure uses `zorixx.ai` / `info@zorixx.ai`;
-  the stock-broking brochure uses `zorixx.com` / `info@zorixx.com`. The page,
-  the banner and every brochure should use one.
+- **Website (confirmed: zorixx.ai).** The live page still lists
+  `www.zorixx.com`; change it to `www.zorixx.ai`. Confirm the email is
+  `info@zorixx.ai`, and update the stock-broking brochure, which still uses
+  zorixx.com.
 - **Empanelment wording.** The company brochure says "System auditor
   empanelment with NSE, BSE, MSE, MCX and NCDEX". The stock-broking brochure
   says the empanelment is "through group companies" with a scope footnote. If
@@ -68,9 +70,9 @@ info@zorixx.ai | +91 70288 61588 | www.zorixx.ai
 | field | value |
 | --- | --- |
 | Industry | Computer and Network Security (alternative: IT Services and IT Consulting) |
-| Company size | **CONFIRM** actual headcount band |
+| Company size | 11-50 employees (as on the live page) |
 | Company type | Privately held |
-| Website | **CONFIRM** www.zorixx.ai or www.zorixx.com |
+| Website | www.zorixx.ai (live page currently shows www.zorixx.com) |
 | Phone | +91 70288 61588 |
 | Location | **CONFIRM** registered office address, set as primary |
 | Custom button | **Contact us** linking to the website contact page (or **Visit website**) |
@@ -80,7 +82,7 @@ info@zorixx.ai | +91 70288 61588 | www.zorixx.ai
 ## 4. Specialties (up to 20)
 
 ```
-System Audit, SEBI CSCRF, Cyber Audit, VAPT, Penetration Testing, Application Security, API Security, DPDP Act Compliance, Data Privacy, ITGC Review, IT Audit, Internal Audit, Technology Risk Management, AI Governance, Vendor Risk Management, Digital Accessibility Audit, ISO 27001, Regulatory Compliance, Stock Broker Compliance, Cybersecurity
+System Audit, SEBI CSCRF, Cyber Audit, VAPT, Penetration Testing, Application Security, DPDP Act Compliance, Data Privacy, ITGC Review, IT Audit, Internal Audit, Technology Risk Management, AI Governance, Vendor Risk Management, ISO 27001, SOC 2, Regulatory Compliance, Stock Broker Compliance, Digital Trust, Cybersecurity
 ```
 
 ## 5. Cover banner
@@ -127,21 +129,36 @@ builds each week from `voice.md` in this folder.
 
 ## Company-page score
 
-Scored with `skills/li-profile/company-rubric.json`. The current page could
-not be read (LinkedIn requires a sign-in), so this is the score once the
-content above is live, not a before/after.
+Scored with `skills/li-profile/company-rubric.json` against the live page
+(linkedin.com/company/zorixx, public view, read 20 Nov 2026). The "after"
+column is the score once the content above is live.
 
-| item | points | after this pack | what the rest needs |
-| --- | --- | --- | --- |
-| tagline | 12 | 12 | |
-| overview_open | 10 | 10 | |
-| overview_body | 12 | 11 | a client outcome with a number, once one can be named |
-| cover | 8 | 8 | |
-| logo | 6 | 6 | |
-| details | 8 | 6 | headcount, address, one confirmed website |
-| specialties | 6 | 6 | |
-| pinned | 8 | 8 | |
-| newsletter | 6 | 4 | Decode launched on LinkedIn |
-| people | 10 | 4 | team profiles updated and linked |
-| activity | 14 | 0 | three posts a week, replies inside an hour |
-| **total** | **100** | **75** | |
+| item | points | now | after | why it scores what it does now |
+| --- | --- | --- | --- | --- |
+| tagline | 12 | 4 | 12 | "AI-First Digital trust, Cybersecurity & Technology Risk Consulting": 66 of 120 characters, a category rather than a buyer or outcome, no proof |
+| overview_open | 10 | 3 | 10 | Opens with "Zorixx Consultech Pvt. Ltd. is...", so the visible lines describe the firm, not the reader's problem |
+| overview_body | 12 | 5 | 11 | Good service list, but the audience is everyone (enterprises to public sector), no exchange empanelment or other proof, no contact or next step |
+| cover | 8 | 1 | 8 | Appears to be the default plain cover (could not confirm while signed out) |
+| logo | 6 | 3 | 6 | Full horizontal wordmark, which shrinks to unreadable at feed size; the circular mark reads better |
+| details | 8 | 4 | 7 | Industry, size and type set; website shows zorixx.com instead of zorixx.ai; location and button not visible |
+| specialties | 6 | 2 | 6 | Not visible on the public view; scored low until confirmed |
+| pinned | 8 | 2 | 8 | No pinned post at the top of the feed |
+| newsletter | 6 | 3 | 4 | Two page articles published (ransomware, NBFC loan-disbursement fraud); no recurring newsletter yet |
+| people | 10 | 4 | 4 | Three employees visible (Akash Srivastava, Ajay Bhandari, Shivani Baya) for an 11-50 page; founder not shown as linked |
+| activity | 14 | 9 | 9 | Posts almost daily, but 4 of the last 10 items are IndianCERT reposts and own posts get 1-2 reactions |
+| **total** | **100** | **40** | **85** | |
+
+## Notes on the current posts
+
+- **Fewer reposts.** Four of the last ten feed items are the same IndianCERT
+  "best practices" repost. They push Zorixx's own posts down and add nothing
+  only Zorixx could say. Keep to one external repost a week, with a comment.
+- **Hashtags.** Posts carry 9 to 15 hashtags. Use three to five specific ones
+  (#DPDPAct, #SEBI, #CyberSecurity, #NBFC).
+- **Voice.** The ransomware article post says "In this article, I explore",
+  which reads oddly from a company page. Either post it from the author's
+  own profile and reshare, or write it as "we".
+- **The DPDP myth-buster format is the strongest.** It is specific, cites the
+  rule and is useful to the reader. Make it a weekly series.
+- **Ask for the comment.** The incident-response post ends with a real
+  question; do that on every Wednesday post and reply within the hour.
